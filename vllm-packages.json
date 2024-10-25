@@ -1,0 +1,19 @@
+[
+  {
+    "package": "Meta-Llama-3-8B",
+    "type": "binary",
+    "url": "uploaded"
+  } ,
+  {
+    "package": "vllm-rocm",
+    "url": "harbor-dell.default.svc.cluster.local/vllm/vllm-rocm@sha256:6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
+    "digest": "6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1",
+    "type": "image"
+  } ,
+  {
+    "package": "alpine",
+    "url": "docker.io/alpine:latest",
+    "tag": "latest",
+    "type": "image"
+  }
+]

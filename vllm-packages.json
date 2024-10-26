@@ -2,13 +2,15 @@
   {
     "package": "Meta-Llama-3-8B",
     "type": "binary",
-    "url": "uploaded"
+    "url": "http://100.96.22.23:9000/mybucket/Meta-Llama-Model-latest.tar.gz"
   } ,
   {
     "package": "vllm-rocm",
-    "url": "harbor-dell.default.svc.cluster.local/vllm/vllm-rocm@sha256:6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
-    "digest": "6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1",
-    "type": "image"
+    "url": "100.96.22.23/vllm/vllm-rocm@sha256:6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
+    "digest": "6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
+    "type": "image",
+    "username": "admin",
+    "access_token": "Harbor12345"
   } ,
   {
     "package": "alpine",

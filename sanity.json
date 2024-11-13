@@ -1,0 +1,8 @@
+[
+  {
+    "url": "docker.io/alpine/curl:latest",
+    "tag": "latest",
+    "type": "image"
+  }
+
+]
